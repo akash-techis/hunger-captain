@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  position: relative;
+}
+.background img {
+  width: 100%;
+}
+.background .white {
+  position: absolute;
+  bottom: -3%;
+}
+.mid {
+  text-align: center;
+  margin-top: 6%;
+}
+.mid .mid-text h1 {
+  color: red;
+  font-size: 30px;
+}
+.mid .mid-text h2 {
+  color: black;
+  font-size: 15px;
+}
+.mid .mid-text {
+  line-height: 38px;
+}
+.mid .mid-buttons button {
+  padding: 20px 10px;
+  margin: 10px;
+  width: 101px;
+  border-radius: 27px;
+  border-style: none;
+  background: #a80e0e;
+  color: white;
+}
+#yellow-button {
+  background-color: #e1a706;
+}
+.mid .mid-text li {
+  list-style: none;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 50px 100px;
+  grid-gap: 30px;
+}
+.item-grid .items img {
+  width: 98%;
+}
+/* .item-grid .items {
+  border: 1px solid black;
+}   */
+
+
+.item-grid .items .item-description .like {
+    display: flex;
+    margin: 5px;
+}
+.item-grid .items .item-description .like img {
+  width: 21px;
+}
+.item-grid .items .item-description .like p {
+  font-size: 15px;
+}
+.item-grid .items .item-description .item-review {
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+    width: 55%;
+}
+.item-grid .items .item-description .add-cart-button {
+    display: flex;
+
+}
+.item-grid .items .item-description .add-cart-button button {
+    background-color: #e1a706;
+    border: none;
+    border-radius: 17px;
+    width: 90px;
+    
+    color: white;
+    
+    
+}   
+.item-grid .items .item-description .add-cart-button p {
+    margin: 8px;
+}
+.item-grid .items .item-description .add-cart-button img {
+  
+    width: 16px;
+}
+.company-details {
+    text-align: center;
+    padding: 0px 0px 26px 0px;
+}
+.company-details .company-description p {
+    color: #808080;
+}
+
+.item-grid .items .item-name p {
+    font-size: larger;
+}
+.company-details .company-contact {
+    padding: 20px 0px;
+}
+footer .rights {
+    text-align: center;
+}
+footer .rights {
+    padding: 70px;
+    border-top: 1px solid grey;
+} 
+footer .rights p {
+    color: #808080;
+}
+.company-description .company-contact h2 {
+    font-size: 15px;
+}
+.item-grid .items .item-description .add-cart-button p {
+    color: #a80e0e;
+}
+
+
+.blur {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2000px;
+    background-color: rgba(125,125,125,0.4);
+}
+.popup {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 50%;
+    height: 35%;
+    background-color: #fff;
+}
+
+
+/*  ######################## media screens ############ 
+############################################*/
+@media screen and (max-width: 600px) {
+  .mid .mid-buttons {
+    margin: 65px;
+    float: left;
+  }
+  .item-grid {
+    display: list-item;
+    list-style: none;
+    line-height: 80px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************
+ Write Review**********************
+ *********************************/
+
+
