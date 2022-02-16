@@ -248,3 +248,7 @@ footer .rights p {
   padding: 11px;
   color: white;
 }
+.review {
+  overflow: scroll;
+  height: 150px;
+}
