@@ -43,6 +43,10 @@
   list-style: none;
 }
 
+.mid img {
+  width: 100%;
+}
+
 .item-grid {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -56,10 +60,9 @@
   border: 1px solid black;
 }   */
 
-
 .item-grid .items .item-description .like {
-    display: flex;
-    margin: 5px;
+  display: flex;
+  margin: 5px;
 }
 .item-grid .items .item-description .like img {
   width: 21px;
@@ -68,82 +71,76 @@
   font-size: 15px;
 }
 .item-grid .items .item-description .item-review {
-    display: flex;
-    justify-content: space-around;
-    color: blue;
-    width: 55%;
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+  width: 55%;
 }
 .item-grid .items .item-description .add-cart-button {
-    display: flex;
-
+  display: flex;
 }
 .item-grid .items .item-description .add-cart-button button {
-    background-color: #e1a706;
-    border: none;
-    border-radius: 17px;
-    width: 90px;
-    
-    color: white;
-    
-    
-}   
+  background-color: #e1a706;
+  border: none;
+  border-radius: 17px;
+  width: 90px;
+
+  color: white;
+}
 .item-grid .items .item-description .add-cart-button p {
-    margin: 8px;
+  margin: 8px;
 }
 .item-grid .items .item-description .add-cart-button img {
-  
-    width: 16px;
+  width: 16px;
 }
 .company-details {
-    text-align: center;
-    padding: 0px 0px 26px 0px;
+  text-align: center;
+  padding: 0px 0px 26px 0px;
 }
 .company-details .company-description p {
-    color: #808080;
+  color: #808080;
 }
 
 .item-grid .items .item-name p {
-    font-size: larger;
+  font-size: larger;
 }
 .company-details .company-contact {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 footer .rights {
-    text-align: center;
+  text-align: center;
 }
 footer .rights {
-    padding: 70px;
-    border-top: 1px solid grey;
-} 
+  padding: 70px;
+  border-top: 1px solid grey;
+}
 footer .rights p {
-    color: #808080;
+  color: #808080;
 }
 .company-description .company-contact h2 {
-    font-size: 15px;
+  font-size: 15px;
 }
 .item-grid .items .item-description .add-cart-button p {
-    color: #a80e0e;
+  color: #a80e0e;
 }
-
 
 .blur {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 3500px;
-    background-color: rgba(125,125,125,0.4);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 3500px;
+  background-color: rgba(125, 125, 125, 0.4);
 }
 .popup {
-    position: fixed;
-    top: 10%;
-    left: 23%;
-    width: 50%;
-    height: 45%;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 10px;
+  position: fixed;
+  top: 10%;
+  left: 23%;
+  width: 55%;
+  height: 53%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
 }
-
 
 /*  ######################## media screens ############ 
 ############################################*/
@@ -157,7 +154,6 @@ footer .rights p {
     list-style: none;
     line-height: 80px;
   }
-
 }
 @media screen and (max-width: 500px) {
   .item-grid .items {
@@ -167,26 +163,10 @@ footer .rights p {
     padding: 0 0 35px 0;
   }
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**********************************
  Write Review**********************
  *********************************/
-
 
 .popup h1 {
   font-family: "Montserrat";
@@ -198,12 +178,12 @@ footer .rights p {
   font-size: 12px;
   padding: 3px 3px 3px;
 }
-.popup .review-buttons{
+.popup .review-buttons {
   display: grid;
   justify-items: center;
   grid-gap: 30px;
-  grid-template-columns: repeat(4,minmax(0,1fr));
-  padding: 10px 0px  ;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 10px 0px;
 }
 
 .popup .review-buttons button {
@@ -241,7 +221,7 @@ footer .rights p {
 .name-feedback button {
   margin: 8px 0px 0px 5px;
   width: 30%;
-  background-color: #E1A700;
+  background-color: #e1a700;
   border-radius: 10px;
   border: none;
   font-size: 10px;
@@ -251,4 +231,66 @@ footer .rights p {
 .review {
   overflow: scroll;
   height: 150px;
+  text-align: center;
+}
+
+
+.popup-1 {
+  position: fixed;
+  top: 10%;
+  left: 23%;
+  width: 55%;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.popup-1 h1 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  padding: 23px 0px;
+  font-weight: lighter;
+}
+
+.popup-1 h2 {
+  font-size: 12px;
+  padding: 3px 3px 3px;
+}
+.popup-1 .review-buttons {
+  display: grid;
+  justify-items: center;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 10px 0px;
+}
+
+.popup-1 .review-heading {
+  font-weight: bold;
+}
+
+.review .review-one .user-name {
+  font-weight: bold;
+  display: flex;
+  margin-left: 58px;
+}
+
+.popup-1 .review-buttons button {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  /* margin: 3px 6px 0px 6px; */
+  border-radius: 60px;
+  font-size: 12px;
+}
+
+.popup-1 .review-buttons button img {
+  width: 12%;
+}
+
+.popup-1 textarea{
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-bottom: 1px solid black;
 }
