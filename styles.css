@@ -44,7 +44,7 @@
 }
 
 .mid img {
-  width: 100%;
+  width: 17%;
 }
 
 .item-grid {
@@ -293,4 +293,25 @@ footer .rights p {
   margin-right: auto;
   border: none;
   border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------    cart page -------------------
+----------------------------------------------------------------*/
+
+.cart-items {
+  display: flex;
+}
+
+.cart-items .cart-item1 {
+  padding: 17px 17px;
 }
