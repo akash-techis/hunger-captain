@@ -407,10 +407,45 @@ footer .rights p {
 /* -----------------------------    cart page -------------------
 ----------------------------------------------------------------*/
 
-.cart-items {
+.cart-item1 {
   display: flex;
+  padding: 44px 14px;
 }
 
 .cart-items .cart-item1 {
   padding: 17px 17px;
+}
+.items-cart-page {
+  padding: 0px;
+}
+.items-cart-page .cart-item1 .cart-item-text h1 {
+  font-size: 25px;
+
+}
+.items-cart-page .cart-item1 .cart-item-text {
+  padding: 12px 40px;
+}
+.items-cart-page .cart-item1 .cart-item-text p {
+  font-size: 20px;
+}
+.items-cart-page .main-button button {
+  background: #a80e0e;
+  
+}
+
+.items-cart-page .cart-item1 .cart-item-text button {
+  margin: 0 0 0 40px;
+    background: darkred;
+    color: white;
+    border-radius: 30px;
+    padding: 6px 4px;
+    border: none;
+}
+.cart-button button {
+    margin: 0 0 0 40px;
+    background: darkred;
+    color: white;
+    border-radius: 30px;
+    padding: 6px 4px;
+    border: none;
 }
