@@ -128,7 +128,7 @@ footer .rights p {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 3500px;
+  height: 4200px;
   background-color: rgba(125, 125, 125, 0.4);
 }
 .popup {
@@ -366,17 +366,38 @@ footer .rights p {
 }
 
 @media screen and (max-width: 600px) {
-  .popup .review-buttons{
+  .popup-1 .review-buttons{
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-gap: 14px;
     margin: 0px 0px;
 
   }
-  .name-feedback input {
-    padding: 11px 10px;
-    font-size: 11px;
+  .review .review-one .user-name {
+    margin-left: 5px;
   }
+  .popup-1 .review-buttons button {
+    font-size: 10px;
+    padding: 4px 4px !important;
+    width: 78px;
+
+  }
+  
 }
+
+
+
+
+/*********************** Review page response ******************/
+
+
+
+
+
+
+
+
+
+
 
 
 
