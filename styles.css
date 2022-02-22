@@ -337,6 +337,52 @@ footer .rights p {
   border-bottom: 1px solid black;
 }
 
+
+
+/************** response for write review page       ****************** */
+
+@media screen and (max-width: 500px) {
+  .popup .review-buttons{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 14px;
+    margin: 0px 0px;
+
+  }
+.popup .review-buttons button {
+  font-size: 10px;
+  padding: 4px 4px !important;
+  width: 78px;
+}
+.review-buttons img {
+  width: 10px;
+}
+.name-feedback input {
+  padding: 11px 10px;
+  font-size: 11px;
+}
+.name-feedback button {
+  padding: 10px 10px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .popup .review-buttons{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 14px;
+    margin: 0px 0px;
+
+  }
+  .name-feedback input {
+    padding: 11px 10px;
+    font-size: 11px;
+  }
+}
+
+
+
+
+
+
 /* -----------------------------    cart page -------------------
 ----------------------------------------------------------------*/
 
